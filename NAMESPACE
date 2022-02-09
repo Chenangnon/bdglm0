@@ -1,0 +1,24 @@
+exportPattern("^[[:alpha:]]+")
+
+# Add in the namespace: "Sewanou Hermann Honfo <honfosewanou@gmail.com> [aut, ctb]"
+
+#######################################################
+# Importation of generic methods - R
+#######################################################
+
+#importFrom("stats", "anova", "lm", "median", "rnorm", "sd", "cutree", "quantile")
+
+importFrom("stats", "dgamma", "pgamma", "qgamma", "rgamma")
+
+importFrom("stats", "dbeta", "pbeta", "qbeta", "rbeta")
+
+importFrom("stats", "dnorm", "pnorm", "qnorm", "rnorm")
+
+importFrom("stats", "dlnorm", "plnorm", "qlnorm", "rlnorm")
+
+importFrom("stats", "dweibull", "pweibull", "qweibull", "rweibull")
+
+#importFrom("rmutil", "dinvgauss", "pinvgauss", "qinvgauss", "rinvgauss")
+
+#importFrom("methods", "setOldClass", "setClass", "setMethod")
+
